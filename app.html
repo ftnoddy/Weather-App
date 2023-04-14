@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WEATHER APP</title>
+	<style>
+		body {
+			background-image: url("https://r4.wallpaperflare.com/wallpaper/148/177/244/ultron-marvel-comics-smoke-robot-wallpaper-0b565cad63319f3905d42b09bd5cdc40.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		nav {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: rgba(255, 255, 255, 0.2);
+			padding: 10px 20px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 9999;
+		}
+		nav h1 {
+			font-size: 32px;
+			font-weight: bold;
+			color: #f5f9f3;
+			margin: 0;
+		}
+		footer {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: rgba(255, 255, 255, 0.2);
+			padding: 10px 20px;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+		footer p {
+			font-size: 16px;
+			color: #f5f9f3;
+			margin: 0;
+		}
+		form {
+			display: flex;
+							flex-direction: column;
+							align-items: center;
+							padding: 30px;
+							color: #f5f9f3;
+							background: transparent;
+							border: 2px solid rgba(255,255,255,0.5);
+							border-radius: 20px;
+							backdrop-filter: blur(10px);
+							margin: 80px auto;
+							max-width: 600px;
+							box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+		}
+		input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+		button {
+			margin-bottom: 20px;
+		}
+		button[type="submit"] {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: all 0.2s ease-in-out; /* add transition effect */
+	text-transform: uppercase; /* make text uppercase */
+	font-weight: bold; /* make text bold */
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* add box shadow */
+}
+
+button[type="submit"]:hover {
+	background-color: #3e8e41;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* add larger box shadow on hover */
+	transform: scale(1.05); /* scale button on hover */
+}
+
+	</style>
+</head>
+<body>
+	<nav>
+		<h1>Weather App</h1>
+		<!-- add any navbar items or links here -->
+	</nav>
+	<form action="/" method="post">
+		<label for="cityInput">City Name:</label>
+		<input id="cityInput" type="text" name="cityName">
+		<button type="submit">Go</button>
+	</form>
+	<footer>
+		<p>&copy; 2023 Weather App</p>
+	</footer>
+</body>
+</html>

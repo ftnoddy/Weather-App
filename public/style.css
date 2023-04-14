@@ -1,0 +1,74 @@
+body {
+  background-image: url("https://r4.wallpaperflare.com/wallpaper/148/177/244/ultron-marvel-comics-smoke-robot-wallpaper-0b565cad63319f3905d42b09bd5cdc40.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+nav h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #f5f9f3;
+  margin: 0;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+footer p {
+  font-size: 16px;
+  color: #f5f9f3;
+  margin: 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  color: #f5f9f3;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  margin-top: 80px;
+}
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+button {
+  margin-bottom: 20px;
+}
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
